@@ -154,8 +154,7 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 python-multipart==0.0.20
 pytz==2025.1
-pywin32>=300 
-sys_platform == 'win32'
+pypiwin32>=300 ; sys_platform == 'win32'
 PyYAML==6.0.2
 pyzmq==26.3.0
 referencing==0.36.2
