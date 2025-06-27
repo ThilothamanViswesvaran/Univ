@@ -1,0 +1,155 @@
+[
+    {
+        "questions": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "Hi there",
+            "Hello there"
+        ],
+        "keywords": [
+            "hi",
+            "hello",
+            "hey"
+        ],
+        "answer": "Hello! 👋 How can I help you today?"
+    },
+    {
+        "questions": [
+            "How are you?",
+            "How's it going?",
+            "How are you doing?"
+        ],
+        "keywords": [
+            "how are",
+            "how's it"
+        ],
+        "answer": "I'm doing great, thanks for asking! 😊 How can I assist you with university matters today?"
+    },
+    {
+        "questions": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "Thank you very much"
+        ],
+        "keywords": [
+            "thank",
+            "thanks"
+        ],
+        "answer": "You're very welcome! 😊 Let me know if there's anything else I can help with."
+    },
+    {
+        "questions": [
+            "What are your opening hours?",
+            "When is the university open?",
+            "What time does the university open?"
+        ],
+        "keywords": [
+            "hours",
+            "open",
+            "close",
+            "time"
+        ],
+        "answer": "The university is open from 8:00 AM to 8:00 PM Monday through Friday, and 9:00 AM to 5:00 PM on Saturdays. The university is closed on Sundays."
+    },
+    {
+        "questions": [
+            "Where is the library?",
+            "Library location",
+            "How do I find the library?"
+        ],
+        "keywords": [
+            "library",
+            "location",
+            "find"
+        ],
+        "answer": "The main library is located in the center of campus, next to the Student Union building. You can find it on campus map location B3."
+    },
+    {
+        "questions": [
+            "How do I contact the IT help desk?",
+            "IT support contact",
+            "Computer help phone number"
+        ],
+        "keywords": [
+            "it",
+            "help desk",
+            "support",
+            "computer",
+            "technical"
+        ],
+        "answer": "The IT help desk can be reached at (555) 123-4567 or by email at ithelp@university.edu. They're available 24/7 for technical support."
+    },
+    {
+        "questions": [
+            "What sports facilities do you have?",
+            "Do you have a gym?",
+            "Athletic facilities"
+        ],
+        "keywords": [
+            "sports",
+            "gym",
+            "athletic",
+            "facilities",
+            "fitness"
+        ],
+        "answer": "Our campus features a state-of-the-art gymnasium, Olympic-size swimming pool, tennis courts, basketball courts, and a running track. All students get free access with their ID card."
+    },
+    {
+        "questions": [
+            "How do I get a student ID?",
+            "Where to get student card",
+            "ID card replacement"
+        ],
+        "keywords": [
+            "id",
+            "card",
+            "student id",
+            "identification"
+        ],
+        "answer": "New students can get their ID card at the Student Services office in the Administration building. Replacement cards cost $20. Bring a government-issued ID for verification."
+    },
+    {
+        "questions": [
+            "What programs do you offer?",
+            "Available majors",
+            "List of courses"
+        ],
+        "keywords": [
+            "programs",
+            "majors",
+            "courses",
+            "degrees"
+        ],
+        "answer": "We offer over 120 programs across 10 colleges, including Engineering, Business, Arts, Sciences, and Health Professions. Visit our academics page for a complete list."
+    },
+    {
+        "questions": [
+            "How do I apply?",
+            "Admission process",
+            "Application steps"
+        ],
+        "keywords": [
+            "apply",
+            "application",
+            "admission",
+            "process"
+        ],
+        "answer": "The application process involves: 1) Submitting an online application, 2) Sending official transcripts, 3) Providing test scores (if required), and 4) Paying the application fee. Deadlines vary by program."
+    },
+    {
+        "questions": [
+            "What is the tuition fee?",
+            "How much does it cost?",
+            "What are the fees?"
+        ],
+        "keywords": [
+            "tuition",
+            "fee",
+            "cost",
+            "price"
+        ],
+        "answer": "Tuition for undergraduate programs is $15,000 per semester for state residents and $25,000 for out-of-state students. Financial aid and scholarships are available."
+    }
+]
