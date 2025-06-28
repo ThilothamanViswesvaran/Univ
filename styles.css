@@ -8,25 +8,22 @@ body {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    width: 50px;
-    height: 50px;
-    background-color: #4a6baf;
-    color: white;
+    width: 60px;
+    height: 60px;
+    background-color: white;
     border: none;
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    z-index: 999; /* Below chat container */
+    padding: 5px;
+    transition: transform 0.2s ease;
+    z-index: 1000;
 }
 
 .chatbot-toggle:hover {
-    background-color: #3a5a9f;
-    transform: scale(1.05);
-}
+    background-color: white;
+    transform: none;
+  }
 
 .chatbot-toggle svg {
     width: 24px;
@@ -37,10 +34,26 @@ body {
     display: flex;
 }
 
+.chatbot-toggle:active {
+    transform: scale(0.95);
+}
+
+.lottie-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background: white;
+  }
+
 /* Chatbot Container */
 .chatbot-container {
     position: fixed;
-    bottom: 100px; /* keep some gap above the toggle */
+    bottom: 100px;
+    /* keep some gap above the toggle */
     right: 30px;
     width: 310px;
     height: 450px;
@@ -54,7 +67,8 @@ body {
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    z-index: 1000; /* BELOW the toggle */
+    z-index: 1000;
+    /* BELOW the toggle */
 }
 
 .chatbot-container.visible {
@@ -181,6 +195,8 @@ body {
 
 .chatbot-input input:focus {
     border-color: #4a6baf;
+    box-shadow: 0 0 0 2px rgba(74, 107, 175, 0.2);
+    transition: all 0.3s ease;
 }
 
 .chatbot-input button {
@@ -200,12 +216,17 @@ body {
     background-color: #3a5a9f;
 }
 
+.chatbot-input button:active {
+    transform: scale(0.95);
+}
+
 /* Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
         transform: translateY(10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -213,9 +234,13 @@ body {
 }
 
 @keyframes bounce {
-    0%, 60%, 100% {
+
+    0%,
+    60%,
+    100% {
         transform: translateY(0);
     }
+
     30% {
         transform: translateY(-5px);
     }
